@@ -22,8 +22,18 @@
         "newlines-between": "always",
         "pathGroups": [
           {
-            "pattern": "@app/**",
+            "pattern": "next-auth/**",
             "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "next/**",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "@app/**",
+            "group": "internal",
             "position": "after"
           }
         ],

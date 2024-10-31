@@ -5,7 +5,7 @@ import { InterFont } from "@/lib/font";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Personal Portfolio website",
+  title: "Abdifitah Abdulkadir",
   description: "Personal Portfolio website. Next.js Developer.",
   keywords: ["Next.js", "React", "TypeScript", "Developer Portfolio"],
 };
