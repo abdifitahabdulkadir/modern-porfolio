@@ -4,6 +4,9 @@
 body {
   font-family: "Inter", sans-serif;
 }
+html {
+  scroll-behavior: smooth !important;
+}
 :root {
   --grey-color-DEFAULT: #ffffff;
   --grey-color-50: #f9fafb;
@@ -38,6 +41,19 @@ body {
   :root {
     --radius: 0.5rem;
   }
+
+  body::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--grey-color-100); /* color of the tracking area */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--grey-color-700); /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+  }
 }
 
 @layer utilities {
@@ -65,5 +81,10 @@ body {
 
   .body-3 {
     @apply text-xs font-normal leading-relaxed tracking-normal;
+  }
+
+  /* invert colors of images between themes. */
+  .invert-colors {
+    @apply invert-0 dark:invert;
   }
 }

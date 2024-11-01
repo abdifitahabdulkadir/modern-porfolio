@@ -72,7 +72,7 @@ export default function Work() {
                   height={20}
                   loading="eager"
                   priority
-                  className="mt-4 invert-0 dark:invert lg:mt-10"
+                  className="invert-colors mt-4 lg:mt-10"
                 />
               </div>
             </div>

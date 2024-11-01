@@ -22,7 +22,7 @@ export default function MobileNavigation() {
           alt="menu"
           height={36}
           width={36}
-          className="invert-0 dark:invert"
+          className="invert-colors"
         />
       </SheetTrigger>
       <SheetContent
@@ -31,15 +31,9 @@ export default function MobileNavigation() {
       >
         <SheetTitle className="hidden">Navigation</SheetTitle>
         <div className="w-full border-b  border-gray-100 pb-4">
-          <Image
-            src={"/avator.png"}
-            width={60}
-            height={60}
-            alt="logo"
-            loading="eager"
-            priority
-            className="rounded-full"
-          />
+          <h3 className="font-inter text-[30px] font-bold text-gray-900">
+            {"<SS />"}
+          </h3>
         </div>
 
         <SheetClose asChild className="w-full">

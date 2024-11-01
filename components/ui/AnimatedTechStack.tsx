@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode, useEffect, useState } from "react";
+
 import { Card, CardSkeletonContainer, Skeleton } from "./AnimatedCard";
 
 export function AnimatedTechStack({ children }: { children: ReactNode }) {

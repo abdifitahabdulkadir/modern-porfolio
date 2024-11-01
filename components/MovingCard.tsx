@@ -24,7 +24,7 @@ export function MovingCard() {
                   alt="user icon"
                   priority
                   loading="eager"
-                  className="invert-0 dark:invert"
+                  className="invert-colors"
                 />
               </div>
               <div

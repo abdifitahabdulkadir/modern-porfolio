@@ -1,11 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
+
+import SocailMedia from "./SocailMedia";
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="mt-20 flex w-full flex-col-reverse justify-between px-[80px] lg:flex-row gap-4"
+      className="mt-20 flex w-full flex-col-reverse justify-between gap-4 px-[80px] lg:flex-row"
     >
       <div className="flex  w-full flex-col gap-2 lg:max-w-[776px]">
         <h1 className="heading-1 text-gray-900 ">Hi, I&rsquo;m Sagar 👋</h1>
@@ -23,7 +24,7 @@ export default function Hero() {
               alt="location icon"
               height={20}
               width={20}
-              className="invert-0 dark:invert"
+              className="invert-colors"
             />
             <span>Ahmedabd, India</span>
           </div>
@@ -32,43 +33,9 @@ export default function Hero() {
             <span>Avaliable for new Projects</span>
           </div>
         </div>
-        <div className="flex items-center mt-5  gap-2">
-          <Link href="/github" className="flex items-center gap-2">
-            <Image
-              src={"/icons/github.svg"}
-              alt="github icon"
-              width={25}
-              height={25}
-              loading="eager"
-              priority
-              className="invert-0 dark:invert"
-            />
-          </Link>
-          <Link href="/" className="flex items-center gap-2">
-            <Image
-              src={"/icons/twitter.svg"}
-              alt="twitter icon"
-              width={25}
-              height={25}
-              loading="eager"
-              priority
-              className="invert-0 dark:invert"
-            />
-          </Link>
-          <Link href="/github" className="flex items-center gap-2">
-            <Image
-              src={"/icons/figma.svg"}
-              alt="figma icon"
-              width={25}
-              height={25}
-              loading="eager"
-              priority
-              className="invert-0 dark:invert"
-            />
-          </Link>
-        </div>
+        <SocailMedia />
       </div>
-      <div className="relative self-center  h-[320px]  w-[280px] xl:border  xl:border-gray-200 xl:bg-gray-200 ">
+      <div className="relative h-[320px]  w-[280px]  self-center xl:border  xl:border-gray-200 xl:bg-gray-200 ">
         <Image
           src={"/icons/man.svg"}
           alt="developer image"
@@ -76,7 +43,7 @@ export default function Hero() {
           height={100}
           loading="eager"
           priority
-          className="xl:absolute size-full xl:left-[-30px] xl:top-[-30px]"
+          className="size-full xl:absolute xl:left-[-30px] xl:top-[-30px]"
         />
       </div>
     </section>

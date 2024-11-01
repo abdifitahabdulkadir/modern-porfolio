@@ -1,7 +1,8 @@
 "use client";
-import { cn } from "@/lib/utils";
 import { animate, motion } from "framer-motion";
 import React, { ReactNode, useEffect } from "react";
+
+import { cn } from "@/lib/utils";
 export const Skeleton = ({ children }: { children: ReactNode }) => {
   const scale = [1, 1.1, 1];
   const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
@@ -49,19 +50,20 @@ export const Skeleton = ({ children }: { children: ReactNode }) => {
   ];
   useEffect(() => {
     animate(sequence, {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       repeat: Infinity,
       repeatDelay: 1,
     });
   }, []);
   return (
-    <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
-      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
-        <Container className="h-8 w-8 circle-1">{children}</Container>
+    <div className="relative flex h-full items-center justify-center overflow-hidden p-8">
+      <div className="flex shrink-0 flex-row items-center justify-center gap-2">
+        <Container className=" size-8">{children}</Container>
       </div>
 
-      <div className="h-40 w-px absolute top-20 m-auto z-40 bg-gradient-to-b from-transparent via-cyan-500 to-transparent animate-move">
-        <div className="w-10 h-32 top-1/2 -translate-y-1/2 absolute -left-10">
+      <div className=" absolute top-20 z-40 m-auto h-40 w-px bg-gradient-to-b from-transparent via-cyan-500 to-transparent">
+        <div className="absolute -left-10 top-1/2 h-32 w-10 -translate-y-1/2">
           <Sparkles />
         </div>
       </div>

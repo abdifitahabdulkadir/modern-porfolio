@@ -36,7 +36,7 @@ export function ThemeToggle() {
               alt="light mode logo"
               priority
               loading="eager"
-              className="invert dark:invert-0"
+              className="invert-colors"
             />
           )}
           {currentTheme === "dark" && (
@@ -47,7 +47,7 @@ export function ThemeToggle() {
               alt="dark mode logo"
               priority
               loading="eager"
-              className="invert dark:invert-0"
+              className="invert-colors"
             />
           )}
           <span className="sr-only">Toggle theme</span>
@@ -68,7 +68,7 @@ export function ThemeToggle() {
             alt="light mode logo"
             priority
             loading="eager"
-            className="invert-0 dark:invert"
+            className="invert-colors"
           />
           Light
         </DropdownMenuItem>
@@ -83,7 +83,7 @@ export function ThemeToggle() {
             alt="light mode logo"
             priority
             loading="eager"
-            className="invert-0 dark:invert"
+            className="invert-colors"
           />
           Dark
         </DropdownMenuItem>
@@ -98,7 +98,7 @@ export function ThemeToggle() {
             alt="light mode logo"
             priority
             loading="eager"
-            className="invert-0 dark:invert"
+            className="invert-colors"
           />
           System
         </DropdownMenuItem>
