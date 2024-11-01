@@ -1,25 +1,23 @@
 import Image from "next/image";
 
-import { Button } from "./ui/button";
+import HeaderGenerator from "./HeaderGenerator";
 
 export default function About() {
   return (
     <section
       id="about"
-      className="mt-20 flex size-full flex-col items-center justify-between bg-gray-50 px-[80px] py-20"
+      className="mt-20 flex size-full flex-col items-center justify-between bg-gray-50 px-[80px] py-10"
     >
-      <Button className="rounded-[12px] bg-gray-200 text-gray-600 transition-colors duration-300  hover:bg-gray-600 hover:text-gray-200">
-        About me
-      </Button>
-      <div className=" mt-10 flex w-full flex-col-reverse items-center justify-between gap-y-3 lg:flex-row">
+      <HeaderGenerator buttonText="About me" desc="" />
+      <div className=" mt-20 flex w-full flex-col-reverse items-center justify-between gap-y-3 lg:flex-row">
         <div className="w-full">
-          <div className=" size-full bg-gray-200  lg:relative  lg:w-[400px] xl:h-[480px] ">
+          <div className=" size-full xl:bg-gray-200  lg:relative  lg:w-[400px] xl:h-[480px] ">
             <Image
               src={"/icons/man2.svg"}
               width={100}
               height={100}
               alt="devloper image"
-              className="   size-full xl:absolute xl:right-[-30px] xl:top-[-30px]"
+              className="size-full xl:absolute xl:right-[-30px] xl:top-[-30px]"
               loading="eager"
               priority
             />

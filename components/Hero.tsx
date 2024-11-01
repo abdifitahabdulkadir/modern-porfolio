@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="mt-20 flex w-full flex-col-reverse justify-between px-[80px] lg:flex-row"
+      className="mt-20 flex w-full flex-col-reverse justify-between px-[80px] lg:flex-row gap-4"
     >
       <div className="flex  w-full flex-col gap-2 lg:max-w-[776px]">
         <h1 className="heading-1 text-gray-900 ">Hi, I&rsquo;m Sagar 👋</h1>
@@ -16,7 +16,7 @@ export default function Hero() {
           though I have been creating web applications for over 7 years, I still
           love it as if it was something new.
         </p>
-        <div className="body-2 mt-5 flex flex-col gap-2 text-gray-600">
+        <div className="body-2 mt-5 flex flex-col  gap-2 text-gray-600">
           <div className="flex items-center gap-1">
             <Image
               src={"/icons/location.svg"}
@@ -68,7 +68,7 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="relative   h-[320px]  w-[280px] border  border-gray-200 bg-gray-200 ">
+      <div className="relative self-center  h-[320px]  w-[280px] xl:border  xl:border-gray-200 xl:bg-gray-200 ">
         <Image
           src={"/icons/man.svg"}
           alt="developer image"
@@ -76,7 +76,7 @@ export default function Hero() {
           height={100}
           loading="eager"
           priority
-          className="absolute size-full xl:left-[-30px] xl:top-[-30px]"
+          className="xl:absolute size-full xl:left-[-30px] xl:top-[-30px]"
         />
       </div>
     </section>

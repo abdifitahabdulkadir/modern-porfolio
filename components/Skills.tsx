@@ -1,22 +1,18 @@
 import { skillsList } from "@/constants/";
 import Image from "next/image";
+import HeaderGenerator from "./HeaderGenerator";
 import { AnimatedTechStack } from "./ui/AnimatedTechStack";
-import { Button } from "./ui/button";
 export default function Skills() {
   return (
     <section
       id="skills"
       className="w-full px-[80px] py-20 flex flex-col h-full"
     >
-      <div className="w-full items-center justify-center flex">
-        <Button className="rounded-[12px] bg-gray-200 text-gray-600 transition-colors duration-300  hover:bg-gray-600 hover:text-gray-200">
-          Skills
-        </Button>
-      </div>
+      <HeaderGenerator
+        buttonText="Skills"
+        desc=" The skills, tools and technologies I am really good at:"
+      />
       <div className="w-full flex mt-10 gap-2 flex-col h-full">
-        <p className="text-gray-600 body-2 self-center">
-          The skills, tools and technologies I am really good at:
-        </p>
         <div className="w-full mt-7 grid  place-items-center grid-cols-2 md:grid-cols-4 gap-x-3 gap-y-10 lg:grid-cols-8 h-full lg:h-[20rem] ">
           {skillsList.map(({ id, imageUrl, title }) => {
             return (

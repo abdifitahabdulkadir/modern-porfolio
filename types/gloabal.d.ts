@@ -12,3 +12,11 @@ interface ExperiencesType {
   to: string;
   tasks: string[];
 }
+
+interface WorkType {
+  id: number;
+  projectImage: string;
+  name: string;
+  desc: string;
+  techStacks: string[];
+}

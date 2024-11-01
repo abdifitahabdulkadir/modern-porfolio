@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
+import Work from "@/components/Work";
 import NavBar from "../components/Navbar";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Skills />
       <Experience />
+      <Work />
       <div className="mt-20">footer</div>
     </main>
   );

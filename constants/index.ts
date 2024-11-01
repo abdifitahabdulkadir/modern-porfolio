@@ -133,12 +133,33 @@ export const experiences: ExperiencesType[] = [
     platformLogo: "/icons/upwork.svg",
     role: "Full Stack Developer",
     tasks: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       "Sed quis justo ac magna.",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "Sed quis justo ac magna.",
     ],
     from: "Dec 2015",
     to: "May 2017",
+  },
+];
+
+export const worsk: WorkType[] = [
+  {
+    id: 1,
+    name: "Fiskil",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    techStacks: [
+      "React",
+      "Nextjs",
+      "Typescript",
+      "Git",
+      "Tailwingcss",
+      "Figma",
+      "Cypress",
+      "Nestjs",
+      "StoryBook",
+      "PostgreSQL",
+    ],
+    projectImage: "/projects/fiskil.svg",
   },
 ];
