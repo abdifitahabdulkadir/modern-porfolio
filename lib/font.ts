@@ -1,6 +1,5 @@
-import localFont from "next/font/local";
-export const InterFont = localFont({
-  src: "../app/fonts/inter.ttf",
+import { Inter } from "next/font/google";
+export const InterFont = Inter({
   variable: "--font-inter",
-  weight: "100 200 300 400 500 700 800 900",
+  weight: ["100", "200", "300", "400", "500", "700", "800", "900"],
 });
