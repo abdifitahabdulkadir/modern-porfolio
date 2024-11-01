@@ -1,9 +1,10 @@
 import About from "@/components/About";
-import Hero from "@/components/Hero";
-
 import Experience from "@/components/Experience";
+import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
+import Testimonials from "@/components/Testimonials";
 import Work from "@/components/Work";
+
 import NavBar from "../components/Navbar";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Work />
-      <div className="mt-20">footer</div>
+      <Testimonials />
     </main>
   );
 }

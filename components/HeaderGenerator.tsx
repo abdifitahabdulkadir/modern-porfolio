@@ -9,11 +9,11 @@ export default function HeaderGenerator({
   desc,
 }: HeaderGeneratorPros) {
   return (
-    <div className="w-full gap-2 items-center flex-col justify-center flex mt-20">
+    <div className="mt-20 flex w-full flex-col items-center justify-center gap-2">
       <Button className="rounded-[12px] bg-gray-200 text-gray-600 transition-colors duration-300  hover:bg-gray-600 hover:text-gray-200">
         {buttonText}
       </Button>
-      {desc && <p className="text-gray-600 body-2 text-center">{desc}</p>}
+      {desc && <p className="body-2 mt-3 text-center text-gray-600">{desc}</p>}
     </div>
   );
 }

@@ -163,3 +163,30 @@ export const worsk: WorkType[] = [
     projectImage: "/projects/fiskil.svg",
   },
 ];
+
+export const testimonialsMessages = [
+  {
+    id: 1,
+    name: "John Doe",
+    role: "Founder - xyz.com",
+    icon: "/icons/user.svg",
+    quote:
+      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.",
+  },
+  {
+    id: 2,
+    name: "Make Deen",
+    role: "Founder - abc.com",
+    icon: "/icons/user.svg",
+    quote:
+      "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
+  },
+  {
+    id: 3,
+    name: "Fatima Soucu",
+    role: "Founder - abc.com",
+    icon: "/icons/user.svg",
+    quote:
+      "Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.",
+  },
+];

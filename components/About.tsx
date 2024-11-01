@@ -11,7 +11,7 @@ export default function About() {
       <HeaderGenerator buttonText="About me" desc="" />
       <div className=" mt-20 flex w-full flex-col-reverse items-center justify-between gap-y-3 lg:flex-row">
         <div className="w-full">
-          <div className=" size-full xl:bg-gray-200  lg:relative  lg:w-[400px] xl:h-[480px] ">
+          <div className=" size-full lg:relative  lg:w-[400px]  xl:h-[480px] xl:bg-gray-200 ">
             <Image
               src={"/icons/man2.svg"}
               width={100}
