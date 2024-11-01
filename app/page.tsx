@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import ApplicatonNavbar from "@/components/ApplicatonNavbar";
+import AppNavbar from "@/components/AppNavbar";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -11,7 +11,7 @@ import Work from "@/components/Work";
 export default function Home() {
   return (
     <main className="min-h-screen w-full bg-gray  pt-5 ">
-      <ApplicatonNavbar />
+      <AppNavbar />
       <Hero />
       <About />
       <Skills />
