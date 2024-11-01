@@ -2,7 +2,9 @@
 # Modern Minimalistic Portfolio
 
 
-<img src="https://github.com/abdifitahabdulkadir/codeflow/blob/67123d8e6fd32ee695ded24b6cb69526ea1c2df4/logo.jpg" alt="Codeflow Logo" style="width: 100%; height: 500px; margin: 20px auto; display: block;" />
+<img src="https://github.com/abdifitahabdulkadir/modern-porfolio/blob/93f2353c54545879ec9af5dd5b5f7f917410e17a/thumbnail.png" 
+     alt="Modern Portfolio Thumbnail" 
+     style="width: 100%; height: 500px; margin: 20px auto; display: block;" />
 
 
 ## 📝 Description
