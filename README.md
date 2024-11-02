@@ -24,7 +24,7 @@ Here are Technogies used for building this project.
 
 
 ## 🌐 Demo
-Here is a working live demo: Caming...
+Here is a working live demo: [modernpotfolio](https://modernporfolio.vercel.app/)
 
 ## 💼 Assets
 He is the figma design link so head 👉 [figma design](https://www.figma.com/design/PwXlqsm5pSXEI6InOZfzkN/personal-porfolio-newest?node-id=340-942&node-type=frame&t=AwFA0B97psGmNNU5-0)
